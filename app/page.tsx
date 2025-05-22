@@ -29,7 +29,7 @@ export default function Home() {
       <section className="relative py-20 md:py-32 border-b border-slate-800 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/Screenshot 2025-05-22 214859.png"
+            src="/Screenshot 2025-05-22 215621.png"
             alt="Security professional"
             fill
             className="object-fit brightness-50"

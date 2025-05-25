@@ -42,8 +42,7 @@ export default function AndroidDownloadPage() {
                   </span>
                 </h1>
                 <p className="text-xl text-[#94a3b8] leading-relaxed">
-                  Advanced mobile security for security professionals. Monitor threats, secure connections, and maintain
-                  compliance from your Android device.
+                  Advanced portal for security professionals, create reports, manage your schedule and clock-in to work.
                 </p>
               </div>
 
@@ -52,26 +51,13 @@ export default function AndroidDownloadPage() {
                   <Download className="w-5 h-5 mr-2" />
                   Download for Android
                 </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-[#00d4ff] text-[#00d4ff] hover:bg-[#00d4ff]/10 px-8 py-6 text-lg"
-                >
-                  <QrCode className="w-5 h-5 mr-2" />
-                  Scan QR Code
-                </Button>
+       
               </div>
             </div>
 
             <div className="relative">
               <div className="relative z-10">
-                <Image
-                  src="/placeholder.svg?height=600&width=300&query=modern smartphone showing security app interface with dark theme"
-                  alt="SecureFront Android App"
-                  width={300}
-                  height={600}
-                  className="mx-auto"
-                />
+        
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 blur-3xl"></div>
             </div>
@@ -89,38 +75,38 @@ export default function AndroidDownloadPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: Shield,
-                title: "Real-time Threat Detection",
-                description:
-                  "Advanced AI-powered scanning detects malware, phishing attempts, and suspicious activities instantly.",
-              },
-              {
-                icon: Wifi,
-                title: "Secure VPN Connection",
-                description: "Built-in VPN with military-grade encryption protects your data on public Wi-Fi networks.",
-              },
-              {
-                icon: Lock,
-                title: "App Lock & Privacy",
-                description: "Secure sensitive apps with biometric locks and hide private photos and files.",
-              },
-              {
-                icon: Eye,
-                title: "Network Monitoring",
-                description: "Monitor all network connections and block suspicious traffic automatically.",
-              },
-              {
-                icon: Zap,
-                title: "Performance Optimization",
-                description: "Clean junk files, optimize battery usage, and boost device performance.",
-              },
-              {
-                icon: Globe,
-                title: "Safe Browsing",
-                description: "Block malicious websites and protect against online threats while browsing.",
+       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  {[
+    {
+      icon: Shield,
+      title: "Real-time Clock-in",
+      description: "Employees clock in with automatic GPS validation, ensuring accountability and live tracking.",
+    },
+    {
+      icon: Wifi,
+      title: "Geofenced Attendance",
+      description: "Clock-ins and outs are restricted to the designated site boundaries for full compliance.",
+    },
+    {
+      icon: Lock,
+      title: "Secure Biometric Login",
+      description: "Employees sign in using biometrics or secure Firebase authentication for protected access.",
+    },
+    {
+      icon: Eye,
+      title: "Live Shift Monitoring",
+      description: "Managers can view active shifts, check-ins, and late reports in real time from the dashboard.",
+    },
+    {
+      icon: Zap,
+      title: "Instant Incident Reports",
+      description: "Employees can submit incident or hourly reports directly from their mobile device.",
+    },
+    {
+      icon: Globe,
+      title: "Site-Based Messaging",
+      description: "Built-in messaging keeps employees and managers aligned on shift updates and alerts.",
+
               },
             ].map((feature, index) => (
               <Card key={index} className="bg-[#1e3a5f]/50 border-[#2d4f73] hover:bg-[#1e3a5f]/70 transition-colors">
@@ -170,7 +156,7 @@ export default function AndroidDownloadPage() {
                     "Android 10.0 or higher",
                     "4GB RAM or more",
                     "500MB free storage space",
-                    "Biometric authentication support",
+                    " authentication support",
                   ].map((req, index) => (
                     <div key={index} className="flex items-center gap-3">
                       <CheckCircle className="w-5 h-5 text-[#00d4ff]" />
@@ -187,9 +173,9 @@ export default function AndroidDownloadPage() {
       {/* Download CTA */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#00d4ff]/20 to-[#00f5ff]/20">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Secure Your Android Device?</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Ready to manage your work from your Android Device?</h2>
           <p className="text-xl text-[#94a3b8] mb-8 max-w-2xl mx-auto">
-            Get SecureFront on your Android device and stay protected wherever you go. Professional-grade security in
+            Get SecureFront on your Android device and stay connected wherever you go. Professional-grade security in
             your pocket.
           </p>
 
@@ -197,7 +183,7 @@ export default function AndroidDownloadPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-[#00d4ff] hover:bg-[#00c4ef] text-[#0a1628] px-8 py-6 text-lg">
                 <Download className="w-5 h-5 mr-2" />
-                Download from Google Play
+                Download from Google Play [ Coming Soon ]
               </Button>
               <Button
                 size="lg"

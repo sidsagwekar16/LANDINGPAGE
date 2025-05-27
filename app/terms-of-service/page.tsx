@@ -83,3 +83,49 @@ export default function TermsOfService() {
     </div>
   )
 }
+
+
+
+/*Terms of Service
+Effective Date: 5/20/2025
+Last Updated: 5/20/2025
+Welcome to SecureFront. These Terms of Service ("Terms") govern your use of
+our website and mobile applications ("Service"). By using SecureFront, you agree
+to these Terms.
+1. Use of the Service
+You must be authorized by an employer or security agency to use SecureFront.
+You agree to:
+Use the Service lawfully and responsibly
+Provide accurate and up-to-date information
+Comply with any instructions or protocols from your employer
+2. Account and Access
+You are responsible for maintaining the confidentiality of your account credentials.
+Any activity under your account is your responsibility.
+3. User Content
+You may submit shift reports, incident logs, images, and other content ("User
+Content"). By doing so, you grant SecureFront and your employer the right to
+store, process, and review this content as part of normal operations.
+4. Location and Tracking
+By using the app, you consent to background location tracking for workforce and
+safety purposes. Location data is only collected during active shifts or as required
+by employer policy.
+5. Termination
+Terms of Service 1
+We reserve the right to suspend or terminate your access to the Service for
+violation of these Terms or misuse of the platform.
+6. Limitation of Liability
+SecureFront is not liable for any indirect, incidental, or consequential damages
+arising from your use of the Service. Use of the platform is at your own risk.
+7. Modifications
+We may update these Terms from time to time. Continued use of the Service
+constitutes acceptance of the updated Terms.
+8. Governing Law
+These Terms are governed by the laws of Florida, United States without regard to
+conflict of law principles.
+9. Contact
+For any questions or concerns about these Terms:
+contact@securefrontsoftware.com
+SecureFront Software
+Terms of Service 2
+
+*/

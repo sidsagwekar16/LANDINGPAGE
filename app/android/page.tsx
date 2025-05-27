@@ -48,8 +48,9 @@ export default function AndroidDownloadPage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-[#00d4ff] hover:bg-[#00c4ef] text-[#0a1628] px-8 py-6 text-lg">
-                  <Download className="w-5 h-5 mr-2" />
+                  <Download className="w-5 h-5 mr-2" /><a href="/apk/sfd.apk" download >
                   Download for Android
+                  </a>
                 </Button>
        
               </div>
@@ -189,8 +190,9 @@ export default function AndroidDownloadPage() {
                 size="lg"
                 variant="outline"
                 className="border-[#00d4ff] text-[#00d4ff] hover:bg-[#00d4ff]/10 px-8 py-6 text-lg"
-              >
+              ><a href="/apk/sfd.apk" download >
                 Download APK Direct
+                </a>
               </Button>
             </div>
           </div>
@@ -210,57 +212,29 @@ export default function AndroidDownloadPage() {
                 <Shield className="w-6 h-6 text-[#00d4ff]" />
                 <span className="text-lg font-bold text-white">SecureFront</span>
               </div>
-              <p className="text-[#94a3b8]">Advanced cybersecurity solutions for the modern digital world.</p>
+              <p className="text-[#94a3b8]"></p>
             </div>
 
-            <div className="space-y-4">
-              <h4 className="text-white font-semibold">Product</h4>
-              <div className="space-y-2">
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  Features
-                </Link>
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  Pricing
-                </Link>
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  Enterprise
-                </Link>
-              </div>
-            </div>
+     
 
-            <div className="space-y-4">
-              <h4 className="text-white font-semibold">Support</h4>
-              <div className="space-y-2">
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  Help Center
-                </Link>
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  Contact Us
-                </Link>
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  System Status
-                </Link>
-              </div>
-            </div>
+         
 
             <div className="space-y-4">
               <h4 className="text-white font-semibold">Legal</h4>
               <div className="space-y-2">
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
+                <Link href="/privacy-policy" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
                   Privacy Policy
                 </Link>
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
+                <Link href="terms-of-service" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
                   Terms of Service
                 </Link>
-                <Link href="#" className="block text-[#94a3b8] hover:text-[#00d4ff] transition-colors">
-                  Security
-                </Link>
+              
               </div>
             </div>
           </div>
 
           <div className="border-t border-[#1e3a5f]/50 mt-8 pt-8 text-center text-[#94a3b8]">
-            <p>&copy; 2024 SecureFront. All rights reserved.</p>
+            <p>&copy; 2025 SecureFront. All rights reserved.</p>
           </div>
         </div>
       </footer>

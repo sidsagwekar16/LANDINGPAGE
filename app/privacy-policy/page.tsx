@@ -4,7 +4,8 @@ export default function PrivacyPolicy() {
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-3xl md:text-4xl font-bold mb-8">Privacy Policy</h1>
         <div className="prose prose-invert max-w-none">
-          <p className="text-gray-300">Effective Date: April 17, 2025</p>
+          <p className="text-gray-300">Effective Date: 5/20/2025 
+Last Updated: 5/20/2025</p>
 
           <p className="mt-6">
             SecureFront ("we", "our", "us") respects your privacy. This Privacy Policy explains how we collect, use, and
@@ -79,3 +80,60 @@ export default function PrivacyPolicy() {
     </div>
   )
 }
+
+
+/*
+
+
+SecureFront ("we", "our", or "us") is committed to protecting the privacy of our
+users. This Privacy Policy explains how we collect, use, and protect information
+when you use our services, including our website and mobile applications
+(collectively, the "Service").
+1. Information We Collect
+We collect the following types of information:
+Personal Information: Name, email address, contact info, user profile data
+Location Data: Real-time GPS location while the app is in use (including in the
+background, if enabled)
+Device Information: Device model, OS, IP address, app version
+Usage Data: Login timestamps, shift logs, user actions within the app
+Uploaded Media: Photos, documents, reports submitted via the app
+2. How We Use Your Information
+We use your data to:
+Provide and improve our workforce management services
+Enable clock-in/out and location tracking
+Communicate shift updates and alerts
+Generate reports for employers and staff
+Ensure compliance with legal or contractual obligations
+3. Sharing and Disclosure
+Privacy Policy 1
+We do not sell or rent your data. We may share it with:
+Employers or clients you are contracted under (e.g., for shift reports)
+Service providers (e.g., Google Maps, Firebase) who process data on our
+behalf
+Law enforcement or regulators when required by law
+4. Data Retention
+We retain data as long as your account is active or as needed to provide our
+services. Upon request, we will delete or anonymize your data unless legally
+obligated to retain it.
+5. Your Choices
+You can manage permissions (e.g., location access) via your device settings
+You may request access to or deletion of your personal data at any time
+You may disable notifications or opt out of certain communication preferences
+6. Security
+We implement industry-standard safeguards to protect your information, including
+encryption, access controls, and regular audits.
+7. Children’s Privacy
+Our Service is not intended for individuals under the age of 17. We do not
+knowingly collect personal data from children.
+8. Changes to This Policy
+We may update this Privacy Policy. Material changes will be notified via the app or
+website.
+9. Contact Us
+If you have any questions or concerns, contact us at:
+Privacy Policy 2
+contact@securefrontsoftware.com
+SecureFront Software
+Privacy Policy 3
+
+
+*/
